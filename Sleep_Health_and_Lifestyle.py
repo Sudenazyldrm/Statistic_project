@@ -5,7 +5,7 @@ import scipy.stats as stats
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv("C:/Users/ASUS/OneDrive/Masaüstü/Sleep_health_and_lifestyle_dataset.csv")
+df = pd.read_csv("Sleep_health_and_lifestyle_dataset.csv")
 print(df.head())
 stress_level = df["Stress Level"].dropna()#clean all empty parts
 
